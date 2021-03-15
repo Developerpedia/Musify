@@ -52,13 +52,14 @@ background-attachment: fixed;
   margin-top: 25%;
   padding: 35px 30px;
   padding-left: 4ch;
+  margin-left:10ch;
   flex-direction: column;
 }
 
 audio{
-  width:100%;
+  width:60%;
   position: relative;
   bottom: 3%;
-  padding-right: 10ch;
+  padding-left: 10.5ch;
   outline: none;
 }
