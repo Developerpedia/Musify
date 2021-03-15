@@ -1,0 +1,63 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ h1{
+    font-family:serif;
+    margin:0;
+    font-size:200%;
+    word-spacing:3px;
+    font-weight:300%;
+    letter-spacing:1px;
+    color:#fff;
+    text-align: center;
+}
+
+body {
+display: flex;
+background: linear-gradient( 180deg, #008aff, #ff137d), url(pexels.jpg) center;
+background-blend-mode: screen;
+background-size:cover;
+background-position:center;
+height:100vh; 
+background-attachment: fixed;
+align-items: center;
+justify-content: center;    
+}
+
+.player {
+  position: relative;
+  width:100%;
+  height:350px;  
+  box-shadow: 0 50px 80px rgba(0,0,0,0.25);
+  margin-left: 13ch;
+  margin-right:13ch;     
+}
+
+.player .imgbx{
+    position:relative;
+    width:100%;
+    height:75vh;
+    background: linear-gradient( 180deg, #008aff, #ff137d), url(cont.jpg) center;
+    background-blend-mode: screen;  
+    border-radius: 15px 15px 15px 15px;
+}
+
+.player .imgbx img{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    margin-bottom: 35ch;
+}
+
+
+.player audio{
+  width:100%;
+  outline: none;
+
+}
