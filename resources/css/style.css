@@ -22,7 +22,6 @@ background: linear-gradient( 180deg, #008aff, #ff137d), url(pexels.jpg) center;
 background-blend-mode: screen;
 background-size:cover;
 background-position:center;
-height:100vh; 
 background-attachment: fixed;
 align-items: center;
 justify-content: center;    
@@ -58,5 +57,4 @@ justify-content: center;
 .player audio{
   width:100%;
   outline: none;
-
 }
